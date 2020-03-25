@@ -2,9 +2,10 @@
   <%= @post.title %>
 </div>
 <div class="postDate">
-  <%= @post.created_at %>
+  <%= @post.created_at.to_s(:datetime_jp) %>
 </div>
 <div class="postAuthor">
+  <%= link_to current_user.nickname, user_path(current_user) %>
 </div>
 <% if user_signed_in? && current_user.id == @post.user_id %>
   <div class="postManage">
