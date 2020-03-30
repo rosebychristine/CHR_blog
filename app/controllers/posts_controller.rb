@@ -13,6 +13,7 @@ class PostsController < ApplicationController
   end
 
   def show
+    @posts = Post.includes(:user)
     @post = Post.find(params[:id])
   end
 

@@ -2,5 +2,5 @@
   <%= @user.nickname %>さんの投稿一覧
 </div>
 <% @posts.each do |post| %>
-  <%= render partial: "posts/post", locals: { post: post } %>
+  <%= render partial: "shared/post", locals: { post: post } %>
 <% end %>
