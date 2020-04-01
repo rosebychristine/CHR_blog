@@ -1,0 +1,35 @@
+.signupPage {
+  text-align: center;
+  line-height: 30px;
+  margin: auto;
+}
+.signup_text {
+  padding: 20px;
+}
+.field {
+  border-radius: 8px;
+}
+.actions {
+  display: inline-block;
+  padding: 0.4em 1.6em;
+  font-size: 100%;
+  color: #447ead;
+  text-decoration: none;
+  transition: 0.4s ease;
+  margin-top: 20px;
+
+  .actions :hover {
+    color: #fff;
+    background: #619fd1;
+  }
+}
+.submit {
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+.toggle-password {
+  font-size: 20px;
+  color: gray;
+}
