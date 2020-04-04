@@ -13,6 +13,10 @@
  *= require_tree .
  *= require_self
  */
+ /*
+ *= require material_icons
+ */
+ 
  @import './reset\ 2';
  @import 'font-awesome-sprockets';
  @import 'font-awesome';
@@ -20,3 +24,4 @@
  @import './posts';
  @import './signup';
  @import './users';
+ @import './likes';
