@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+ @import './reset\ 2';
+ @import 'font-awesome-sprockets';
+ @import 'font-awesome';
+ @import './login';
+ @import './posts';
+ @import './signup';
+ @import './users';

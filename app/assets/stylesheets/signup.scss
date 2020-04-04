@@ -1,35 +1,53 @@
 .signupPage {
   text-align: center;
-  line-height: 30px;
+  line-height: 40px;
   margin: auto;
 }
 .signup_text {
-  padding: 20px;
+  padding: 10px;
+  font-size: 50px;
 }
 .field {
   border-radius: 8px;
+  width: 100%;
+  height: 80px;
 }
 .actions {
   display: inline-block;
-  padding: 0.4em 1.6em;
-  font-size: 100%;
-  color: #447ead;
-  text-decoration: none;
   transition: 0.4s ease;
-  margin-top: 20px;
+  width: 320px;
+  height: 80px;
+  margin: 15px auto;
 
-  .actions :hover {
-    color: #fff;
+ 
+
+  input {
     background: #619fd1;
+    color: #ffffff;
+    width: 220px;
+    height: 60px;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 20px;
+    
+    &:hover {
+      color: #447ead;
+    }
   }
 }
-.submit {
-  text-decoration: none;
-  color: #fff;
-  
-}
 
-.toggle-password {
-  font-size: 20px;
-  color: gray;
+input#user_nickname {
+  width: 320px;
+  height: 40px;
+  border-radius: 4px;
+}
+input#user_email {
+  @extend #user_nickname
+}
+input#user_password {
+  @extend #user_nickname
+}
+input#user_password_confirmation{
+  margin-bottom: 15px;
+  @extend #user_nickname
 }
