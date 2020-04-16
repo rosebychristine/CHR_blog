@@ -1,11 +1,14 @@
-# CHR Blog  
+# CHR Blog<br>
+![FrontPageImage](https://github.com/rosebychristine/CHR_blog/blob/master/9f58479bc62e90537f755cea576208b3.png)<br>
+
 
 ## Overview<br>
 If you logged in to this blog, you can write a post and add a picture. Also, if you liked other user's post, you can press the like button on that page.<br>
 
 概要<br>
 このブログアプリは、ログインとログアウトができ、投稿や一枚の写真の貼り付けと良いね機能が備わっています。<br>
-![FrontPageImage](https://github.com/rosebychristine/CHR_blog/newRead/blob/master/9f58479bc62e90537f755cea576208b3.png)
+
+
 ## Production environment<br>
 * What I used to make this  
 Heroku deployment/SQL/Ruby/Ruby on Rails/HTML/Scss<br>
