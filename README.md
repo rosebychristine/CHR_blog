@@ -1,5 +1,5 @@
 # CHR Blog<br>
-![FrontPageImage](https://github.com/rosebychristine/CHR_blog/blob/master/9f58479bc62e90537f755cea576208b3.png)<br>
+![FrontPageImage](https://github.com/rosebychristine/CHR_blog/blob/master/da8138a5a0394eafd91ceb9f066c0755.png)<br>
 
 
 ## Overview<br>
