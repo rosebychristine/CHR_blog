@@ -26,6 +26,6 @@ I added and chenged several functions from the school carriculum.<br>
 
 * Down below are what I added from the curriculum app.  
  Like button / Background picture(Photo by me) / Posted date / Color and arrengement<br>
- *Please go check the down below link to see the app.<br>
+* Please go check the down below link to see the app.<br>
  https://chrblog.herokuapp.com/
 
