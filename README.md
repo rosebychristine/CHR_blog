@@ -20,6 +20,7 @@ I added and chenged several functions from the school carriculum.<br>
 ##制作背景<br>
 プログラミングスクールで学んだカリキュラムの基礎アプリから新たに機能をつけて変化させました。<br> 
 追加機能としては、良いね機能・写真を投稿する機能・背景を自分が撮影したものに変更・見た目や名前の変更などです。<br>
+下記のurlを押していただくとブログアプリに飛ぶことができます。
 
 
 * Down below are what I added from the curriculum app.  
