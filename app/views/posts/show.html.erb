@@ -7,8 +7,7 @@
       <%= @post.created_at.to_s(:datetime_jp) %>
     </div>
     <div class="postAuthor">
-      <%# <%= link_to current_user.nickname, user_path(current_user) %> 
-      <%# <%= link_to post.user.nickname, user_path(post.user),class: "Author_url" %>
+      <%= @post.user.nickname %>
     </div>
     <% if user_signed_in? && current_user.id == @post.user_id %>
       <div class="postManage">

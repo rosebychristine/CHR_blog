@@ -59,6 +59,12 @@ body{
           width: 55px;
           border: solid 1px;
         }
+        &--imageSize {
+          height: 55px;
+          width: 55px;
+          display: inline-block;
+          text-decoration: none;
+        }
       }
       &__right{
         width: calc(100%-100px);
