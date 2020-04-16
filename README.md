@@ -17,17 +17,17 @@ My name is Christine and I am bigginer who goes to programming school.
 First of all, I did not made this app from scratch.
 I added and chenged several functions from the school carriculum.<br>
 
+
+* Down below are what I added from the curriculum app.  
+ Like button / Background picture(Photo by me) / Posted date / Color and arrengement<br>
+* Please go check the down below link to see the app.<br>
+ https://chrblog.herokuapp.com/ <br>
+
 制作背景<br>
 次のステップアップをする為に、まず簡単なことから始めようと考え、こっちらのブログを作成しました。<br>
 こちらはプログラミングスクールのカリキュラムで作成したブログアプリに新たな機能をつけて変化させたものです。<br> 
 追加機能としては、良いね機能・写真を投稿する機能・背景を自分が撮影したものに変更・見た目や名前の変更などです。<br>
 下記のurlを押していただくとブログアプリに飛ぶことができます。<br>
+https://chrblog.herokuapp.com/ <br>
 
 またさらに機能を追加したいと考えており、良いね機能の自動化や写真の複数枚投稿とコメント機能を追加できたらなと考えております。<br>
-
-
-* Down below are what I added from the curriculum app.  
- Like button / Background picture(Photo by me) / Posted date / Color and arrengement<br>
-* Please go check the down below link to see the app.<br>
- https://chrblog.herokuapp.com/
-
