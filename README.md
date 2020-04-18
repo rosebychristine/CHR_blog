@@ -34,3 +34,46 @@ I added and chenged several functions from the school carriculum.<br>
 
 * 下記の[url](https://chrblog.herokuapp.com/)を押していただくとブログアプリに飛ぶことができます。<br>
 https://chrblog.herokuapp.com/
+
+## DataBase / DB設計 <br>
+
+### users Table
+|Column|Type|Option|
+|------|----|-------|
+|title|string|null: false, unique: true|
+|content|string|null: false|
+|image|string|null: false|  
+
+#### Association  
+- has_many :posts  
+- has_many :likes
+
+### Posts Table
+|Column|Type|Option|
+|------|----|-------|
+|email|string|null: false, unique: true|
+|password|string|null: false|
+|nickname|string|null: false|
+
+#### Association  
+- belongs_to :user
+- has_many  :likes, dependent: :destroy
+
+
+### Likes Table
+|Column|Type|Option|
+|------|----|-------|
+
+#### Association  
+- belongs_to :user
+- belongs_to :post
+
+### Images Table
+|Column|Type|Option|
+|------|----|-------|
+|user_id|Type|Option|
+|post_id|----|-------|  
+
+#### Association  
+- belongs_to :post  
+
