@@ -63,6 +63,8 @@ https://chrblog.herokuapp.com/
 ### Likes Table
 |Column|Type|Option|
 |------|----|-------|
+|user_id|||
+|post_id|||
 
 #### Association  
 - belongs_to :user
@@ -71,8 +73,8 @@ https://chrblog.herokuapp.com/
 ### Images Table
 |Column|Type|Option|
 |------|----|-------|
-|user_id|Type|Option|
-|post_id|----|-------|  
+|image_url|text|null: false|
+|post_id|references|null: false <br> foreign_key: true|
 
 #### Association  
 - belongs_to :post  
