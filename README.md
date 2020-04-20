@@ -57,14 +57,14 @@ https://chrblog.herokuapp.com/
 
 #### Association  
 - belongs_to :user
-- has_many  :likes, dependent: :destroy
+- has_many  :likes, dependent: destroy
 
 
 ### Likes Table
 |Column|Type|Option|
 |------|----|-------|
-|user_id|||
-|post_id|||
+|user_id|integer|null|
+|post_id|integer|null|
 
 #### Association  
 - belongs_to :user
@@ -77,5 +77,5 @@ https://chrblog.herokuapp.com/
 |post_id|references|null: false <br> foreign_key: true|
 
 #### Association  
-- belongs_to :post  
+- belongs_to :post, dependent: destroy 
 
