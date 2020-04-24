@@ -21,9 +21,9 @@
     <div class="postimage">
       <img src="<%= @post.image %>",new_post_path, class="aaaa">
     </div>
-    <div class= "feedback">
-      <div id="likes_buttons_",class= "btn_like"<%= @post.id %>>
-        <%= render partial: 'shared/like', locals: { post: @post, likes: @likes} %>
+    <div class= "item-button-container">
+      <div class= "item-button-container__left">
+        <%= render partial: 'shared/like', locals: { post: @post, posts: @posts, likes: @likes, like: @like} %>
       </div>
     </div>
   </div>
