@@ -11,8 +11,7 @@ CarrierWave.configure do |config|
       provider: 'AWS',
       aws_access_key_id: Rails.application.credentials.aws[:access_key_id],
       aws_secret_access_key: Rails.application.credentials.aws[:secret_access_key],
-      region: 'ap-northeast-1',
-      path_style: true
+      region: 'ap-northeast-1'
     }
   else
     config.storage :file
@@ -21,5 +20,3 @@ CarrierWave.configure do |config|
     config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/dailyblog'
   end
 end
- 
-CarrierWave::SanitizedFile.sanitize_regexp = /[^[:word:]\.\-\+]/
